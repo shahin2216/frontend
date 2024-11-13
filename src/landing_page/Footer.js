@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 function Footer() {
@@ -12,27 +13,27 @@ function Footer() {
                 </div>
                 <div className='col'>
                     <p>Company</p>
-                    <a href="" style={{textDecoration:"none"}} className="mt-5 text-muted">About</a><br/>
-                    <a href="" style={{textDecoration:"none"}} className="mt-5 text-muted">Products</a><br/>
-                    <a href="" style={{textDecoration:"none"}} className="mt-5 text-muted">Pricing</a><br/>
-                    <a href="" style={{textDecoration:"none"}} className="mt-5 text-muted">Referral programme</a><br/>
-                    <a href="" style={{textDecoration:"none"}} className="mt-5 text-muted">Zerodha.tech</a><br/>
-                    <a href="" style={{textDecoration:"none"}} className="mt-5 text-muted">Press & media</a><br/>
-                    <a href="" style={{textDecoration:"none"}} className="mt-5 text-muted">Zerodha cares(CSR)</a><br/>
+                    <Link to="/" style={{textDecoration:"none"}} className="mt-5 text-muted">About</Link><br/>
+                    <Link to="/"style={{textDecoration:"none"}} className="mt-5 text-muted">Products</Link><br/>
+                    <Link to="/" style={{textDecoration:"none"}} className="mt-5 text-muted">Pricing</Link><br/>
+                    <Link to="/" style={{textDecoration:"none"}} className="mt-5 text-muted">Referral programme</Link><br/>
+                    <Link to="/" style={{textDecoration:"none"}} className="mt-5 text-muted">Zerodha.tech</Link><br/>
+                    <Link to="/" style={{textDecoration:"none"}} className="mt-5 text-muted">Press & media</Link><br/>
+                    <Link to="/" style={{textDecoration:"none"}} className="mt-5 text-muted">Zerodha cares(CSR)</Link><br/>
                 </div>
                 <div className='col'>
                 <p>Support</p>
-                <a href="" style={{textDecoration:"none"}} className="mt-5 text-muted">Contact</a><br/>
-                <a href="" style={{textDecoration:"none"}} className="mt-5 text-muted">Support portal</a><br/>
-                <a href="" style={{textDecoration:"none"}} className="mt-5 text-muted">Z-Connect blog</a><br/>
-                <a href="" style={{textDecoration:"none"}} className="mt-5 text-muted">List of changes</a><br/>
-                <a href="" style={{textDecoration:"none"}} className="mt-5 text-muted">Download & resources</a><br/>
+                <Link to="/" style={{textDecoration:"none"}} className="mt-5 text-muted">Contact</Link><br/>
+                <Link to="/" style={{textDecoration:"none"}} className="mt-5 text-muted">Support portal</Link><br/>
+                <Link to="/" style={{textDecoration:"none"}} className="mt-5 text-muted">Z-Connect blog</Link><br/>
+                <Link to="/" style={{textDecoration:"none"}} className="mt-5 text-muted">List of changes</Link><br/>
+                <Link to="/" style={{textDecoration:"none"}} className="mt-5 text-muted">Download & resources</Link><br/>
                 </div>
                 <div className='col'>
                 <p>Acount</p>
-                <a href="" style={{textDecoration:"none"}} className="mt-5 text-muted">Open an account</a><br/>
-                <a href="" style={{textDecoration:"none"}} className="mt-5 text-muted">Fund transfer</a><br/>
-                <a href="" style={{textDecoration:"none"}} className="mt-5 text-muted">60 day of challenge</a><br/>
+                <Link to="/" style={{textDecoration:"none"}} className="mt-5 text-muted">Open an account</Link><br/>
+                <Link to="/" style={{textDecoration:"none"}} className="mt-5 text-muted">Fund transfer</Link><br/>
+                <Link to="/" style={{textDecoration:"none"}} className="mt-5 text-muted">60 day of challenge</Link><br/>
                 </div>
             </div>
             <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
